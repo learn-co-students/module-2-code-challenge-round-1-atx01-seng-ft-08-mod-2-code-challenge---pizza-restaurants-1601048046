@@ -1,2 +1,4 @@
 class Pizza < ApplicationRecord
-end
+has_many :restaurants
+
+end 
